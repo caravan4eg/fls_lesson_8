@@ -1,0 +1,129 @@
+.main__title {
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+	margin: 0px 0px 25px 0px;
+}
+
+.example {
+	margin: 0px 0px 45px 0px;
+}
+
+.example__body {
+	padding: 25px 25px 35px 25px;
+	background: lightgray;
+	border-radius: 15px;
+}
+.example-1 *:last-child {
+	margin-bottom: 0;
+}
+.example__title {
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: left;
+	margin: 0px 0px 15px 0px;
+	/* padding: 0px 0px 0px 5px; */
+}
+[class*=__title]::first-letter {
+	font-size: 32px;
+	font-weight: 900;
+	color: red;
+}
+
+.example__title::after {
+	content: "";
+	height: 5px;
+	width: 75%;
+	margin: 5px 0px 0px 0px;
+	display: block;
+	background-color: #000;
+}
+
+.example__text {
+	background-color: darkgrey;
+	font-size: 18px;
+	margin: 0px 0px 30px 0px;
+	color: white;
+	padding: 15px;
+	border-radius: 15px;
+	transition: all 0.5s ease 0s;
+}
+
+.example__text:hover {
+	background-color: #f7e8ff;
+	box-shadow: 4px 4px 2px rgb(117, 116, 116);
+	color: black;
+	line-height: 1.3;
+}
+
+.example__text:nth-child(odd):hover::before {
+	content: "Я появляюсь до основного содержимого при наведении курсора в нечетном по порядку параграфе ::before.  ";
+	color: rgb(243, 75, 75);
+	font-weight: 900;
+}
+
+.example__text:nth-child(even):hover::after {
+	content: "Я появляюсь после основного содержимого при наведении курсора в четном параграфе при помощи псевдоэлемента ::after.   ";
+	color: rgb(243, 75, 75);
+	font-weight: 900;
+}
+
+.example__button {
+	display: block;
+	text-align: center;
+	max-width: 150px;
+	padding: 10px;
+	margin: 0 auto;
+	border-radius: 15px;
+	background-color: darkgrey;
+	font-size: 18px;
+	transition: all 0.3s ease 0s;
+}
+
+.example__button:hover {
+	box-shadow: 4px 4px 2px white;
+	background-color: rgb(3, 151, 3);
+	color: white;
+	transform: scale(1.5);
+}
+
+span {
+	font-style: italic;
+	font-weight: 700;
+}
+
+/* список */
+
+/* .example__list {
+	padding: 25px 25px 35px 25px;
+	background: lightgray;
+	border-radius: 15px;
+} */
+.example__list *:last-child {
+	margin-bottom: 0;
+	font-size: 20px;
+}
+
+.example__list-item {
+	font-size: 18px;
+	padding: 0px 0px 10px 30px;
+}
+.example__list-item:hover {
+	font-weight: 700;
+}
+.example__list-item::before {
+	content: "";
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	margin: 0px 10px 0px -30px;
+	background: url("../img/list.svg") 0 0 / 15px no-repeat;
+	transition: all 0.3s ease 0s;
+}
+
+.example__list-item:hover::before {
+	transform: scale(1.3);
+}
+
+

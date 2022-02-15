@@ -1,0 +1,136 @@
+
+/* ---------------- Why Createx -------------------- */
+
+.card {
+	padding: 8px 26px 8px 26px;
+}
+
+.main__title {
+	font-size: 48px;
+	font-weight: 700;
+	border-left: 3px solid grey;
+	height: 135px;
+	margin: 35px 0 0 0;
+	padding: 25px 0px 0px 5px;
+}
+
+
+.main__subtitle {
+	color: darkred;
+	font-size: 24px;
+	font-weight: 700;
+	margin: -25px 0px 95px 7px;
+}
+.task {
+	font-size: 20px;
+	font-weight: 700;
+	margin: -25px 0px 35px 7px;
+	color: darkred;
+}
+
+.task::after {
+	content: "";
+	display: inline-block;
+	height: 2px;
+	width: 100%;
+	background-color: grey;
+}
+
+
+.card {
+	max-width: 462px;
+}
+.card__subtitle {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1e212c;
+	margin-bottom: 8px;
+}
+.card__title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1e212c;
+	margin-bottom: 40px;
+}
+
+.card__list {
+	margin-bottom: 48px;
+}
+
+.card__list-item {
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	padding: 0px 0px 10px 26px;
+	transition: all 0.2s ease 0s;
+}
+.card__list-item:hover {
+	font-weight: 700;
+	/* font-size: 17px; */
+}
+.card__list-item::before {
+	content: "";
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	margin: 0px 10px 0px -26px;
+	background: url("../../img/list.svg") 0 0 / 15px no-repeat;
+	transition: all 0.3s ease 0s;
+}
+
+.card__list-item:hover::before {
+	transform: scale(1.3);
+}
+
+.card__list-item *:last-child {
+	margin-bottom: 0;
+}
+.card__button {
+	display: inline-block;
+	max-width: 161px;
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	border-radius: 4px;
+	font-size: 14px;
+	line-height: 44px;
+	padding: 0px 32px 0px 32px;
+	letter-spacing: 0.5px;
+	color: #ffff;
+	margin-bottom: 57px;
+	transform: translate(0, 0.1em);
+	transition: all 0.3s ease 0s;
+}
+
+.card__button:hover {
+	transform: translate3d(0, 0.2em, -1em);
+	box-shadow: 4px 4px 6px #f54747;
+}
+
+/* ---------------- lines -------------------- */
+
+.lines {
+	display: flex;
+	align-items: flex-end;
+	font-family: "Times New Roman", serif;
+	font-size: 20px;
+	display: block;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	padding: 88px 0px 28px 0px;
+	margin: 0px 0px 0px 26px;
+	border-left: 3px solid rgba(255, 0, 0, 0.5);
+	height: 150px;
+}
+
+.lines::after {
+	content: "";
+	display: inline-block;
+	display: flex;
+	justify-content: start;
+	height: 2px;
+	width: 40px;
+	background-color: grey;
+}

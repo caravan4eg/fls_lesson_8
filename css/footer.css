@@ -1,0 +1,25 @@
+.footer {
+	font-family: Roboto;
+	padding: 15px;
+	background-color: darkseagreen;
+	padding: 20px;
+}
+.footer__container {
+}
+.footer__text {
+	font-size: 16px;
+	font-weight: 300;
+	color: #000;
+	text-align: center;
+}
+
+.footer__link {
+	margin: 0px 25px 0px 0px;
+	padding: 10px;
+	border: 1px solid #fff;
+	border-radius: 10px;
+}
+
+.active {
+	background-color: lightgrey;
+}

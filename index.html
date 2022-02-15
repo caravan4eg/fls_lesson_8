@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Lesson 8. Проработка лекции</title>
+		<link rel="stylesheet" href="css/base.css">
+	</head>
+
+	<body>
+		<!-- Квадратная картинка в круге -->
+		<div class="wrapper">
+			<!-- HEADER -->
+			<header class="header">
+				<div class="header__container">
+				</div>
+			</header>
+			<!-- MAIN -->
+			<main class="main">
+				<div class="main__container">
+					<h1 class="main__title"> Лекция 8. Проработка лекции. Псевдоклассы и псевдоэлементы </h1>
+					<!-- пример 1 -->
+					<div class="example">
+						<h2 class="example__title"> Использование псевдоклассов :hover, :nth-child() и псевдоэлементов ::before, ::after </h2>
+						<div class="example__body">
+							<p class="example__text">У последнего из элементов примера убирается висячий отступ с помощью <span>*:last-child<span>.</p>
+									<p class="example__text">При наведении курсора параграфы и ссылка меняются при момощи псевдокласса <span>:hover</span>. </p>
+									<p class="example__text">При наведении курсора на текст он меняется с учетом положения параграфа в блоке (четный или нечетный по списку) при помощи псевдокласса<span> :nth-child(even) или :nth-child(odd)</span></p>
+									<p class="example__text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eligendi nobis reiciendis, quidem soluta corporis officia, ut nihil voluptas tempore natus facilis laudantium pariatur necessitatibus doloremque qui quasi saepe autem!</p>
+									<a class="example__button" href="#">Я меняюсь при наведении </a>
+								</div>
+							</div>
+							<!-- пример 2 -->
+							<div class="example">
+								<h2 class="example__title"> Маркированный список при использовании :hover, ::before, ::after </h2>
+								<p class="example__text">Декорирование заголовка при помощи <span>first-letter и псевдоэлемента ::after </span> </p>
+								<p class="example__text">При вставлении маркеров списка через background и псевдоэлементов <span>::before ::after</span> изображением можно управлять как объектом </p>
+								<ul class="example__list">
+									<li class="example__list-item">Lorem ipsum dolor sit amet.</li>
+									<li class="example__list-item">Lorem ipsum dolor sit amet.</li>
+									<li class="example__list-item">Lorem ipsum dolor sit amet.</li>
+								</ul>
+							</div>
+						</div>
+					</main>
+					<!-- FOOTER -->
+					<footer class="footer">
+						<div class="footer__container">
+							<div class="footer__text">
+								<a href="index.html" class="footer__link active">ДЗ страница 1</a>
+								<a href="home-work.html" class="footer__link" > ДЗ страница 2 </a>
+
+							</div>
+						</div>
+					</footer>
+				</div>
+			</body>
+
+		</html>
