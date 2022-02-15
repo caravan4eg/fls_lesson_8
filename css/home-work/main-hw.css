@@ -115,14 +115,14 @@
 	display: flex;
 	align-items: flex-end;
 	font-family: "Times New Roman", serif;
-	font-size: 20px;
+	font-size: 32px;
 	display: block;
 	line-height: 1.5;
 	margin-bottom: 20px;
 	padding: 88px 0px 28px 0px;
-	margin: 0px 0px 0px 26px;
+	margin: 0px 0px 45px 26px;
 	border-left: 3px solid rgba(255, 0, 0, 0.5);
-	height: 150px;
+	height: 170px;
 }
 
 .lines::after {
